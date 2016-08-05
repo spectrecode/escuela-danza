@@ -1,0 +1,58 @@
+#banner {
+	background-image: url("../img/dance_1.jpg");
+	background-size: cover;
+}
+
+h1 {
+	color: #C3C6C5;
+	font-size: 70px;
+	font-weight: bold;
+}
+
+#banner p {
+	color: #C3C6C5;
+}
+
+#banner a {
+	background-color: #030D1B;
+}
+
+#fondo {
+	background-image: url("../img/textura_2.jpg");
+}
+
+.deco img {
+	width: 10%;
+}
+
+#fondo a {
+	background-color: #030D1B;
+	padding: 15px 80px;
+}
+
+#fondo p {
+	font-size: 22px;
+}
+
+.instructor,.profesor {
+	border: 1px solid black;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 300px;
+}
+
+
+.instructor {
+	background-image: url("../img/instructor_4.jpg");
+	background-size: cover;
+}
+
+.profesor {
+	background-image: url("../img/profesor_9.jpg");
+	background-size: cover;
+}
+
+.botonmedio {
+	position: absolute;
+	t
+}
