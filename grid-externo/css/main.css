@@ -17,10 +17,6 @@ h1 {
 	background-color: #030D1B;
 }
 
-#fondo {
-	background-image: url("../img/textura_2.jpg");
-}
-
 .deco img {
 	width: 10%;
 }
@@ -39,20 +35,75 @@ h1 {
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 300px;
+	max-width: 629.5px;
 }
 
 
 .instructor {
 	background-image: url("../img/instructor_4.jpg");
-	background-size: cover;
 }
 
 .profesor {
 	background-image: url("../img/profesor_9.jpg");
-	background-size: cover;
 }
 
-.botonmedio {
-	position: absolute;
-	t
+.caja-banner {
+	position: relative;
 }
+
+.boton-medio {
+	position: absolute;
+	padding: 25px 120px;
+	background-color: #030D1B;
+	bottom: 0;
+	right: 33%;
+}
+
+article#fondo p.frase {
+	font-size: 35px;
+	font-style: italic;
+}
+
+#fondo-azul {
+	background-color: #030D1B;
+}
+
+.guia {
+	padding: 10% 15%;
+}
+
+#fondo-azul h4 {
+	font-size: 20px;
+	padding-left: 15%;
+}
+
+.direccion {
+	padding: 0% 50% 10% 15%;
+}
+
+#blog {
+	background-color: #E6E6E6;
+}
+
+#blog h3 {
+	font-size: 20px;
+}
+
+.articulo {
+	padding: 3% 5% 7% 5%;
+	background-color: #C9C9CA;
+}
+
+p em {
+	color: #B6B6B6;
+}
+
+.boton-ver a {
+	background-color: #030D1B;
+	padding: 10px 70px;
+}
+
+.boton-ver {
+	padding-bottom: 1%;
+}
+

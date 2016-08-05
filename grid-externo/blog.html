@@ -4,22 +4,24 @@
 	<meta charset="UTF-8">
 	<title>Escuela de Danza</title>
 	<link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Montserrat:400,700'>
-	<link rel="stylesheet" type="text/css" href="css/grid-system.css">
+	<link rel="stylesheet" type="text/css" href="css/simplegrid.css">
 	<link rel="stylesheet" type="text/css" href="css/utilities.css">
 	<link rel="stylesheet" type="text/css" href="css/common.css">
 	<link rel="stylesheet" type="text/css" href="css/blog.css">
+	<link rel="stylesheet" type="text/css" href="index.html">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
 	<header class="text-center">
-	<div class="container">
-		<div class="col-group">
-			<div class="col-mb-12">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-12">
 				<h2 class="text-center">ESCUELA DE DANZA</h2>
 				<nav>
 					<ul>
 						<li><a href="#" class="a-none-decoration text-blue">Nosotros</a></li>
-						<li><a href="#" class="a-none-decoration text-blue">Clases</a></li>
-						<li><a href="#" class="a-none-decoration text-blue">Blog</a></li>
+						<li><a href="clases.html" class="a-none-decoration text-blue">Clases</a></li>
+						<li><a href="blog.html" class="a-none-decoration text-blue">Blog</a></li>
 						<li><a href="#" class="a-none-decoration text-blue">Contáctanos</a></li>
 					</ul>
 				</nav>
@@ -27,5 +29,61 @@
 		</div>
 	</div>
 	</header>
+	<section id="blog">		
+		<h3 class="text-center pt-5 pb-5">BLOG</h3>
+		<div class="container">
+			<div class="row">
+				<div class="col-3">
+					<img src="img/blog1.jpg">
+				</div>
+				<div class="col-9">
+					<div class="articulo">
+						<h5>Título del artículo</h5>
+						<p class="lh"><em>fecha</em></p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat.</p>					
+						<div class="boton-ver pt-5"><a href="#" class="a-none-decoration text-white">Ver mas</a></div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-5">
+					<img src="img/profesor_5.jpg">
+				</div>
+			</div>
+		</div>
+	</section>
+	<article id="formulario">
+			<div class="container">
+				<div class="row">
+					<div class="col-6">
+						<h2  class="pt-5 pb-5">Contactanos</h2>
+						<form action="#" method="get" id="contact">
+							<div>
+								<input type="text" name="invitado" value="Nombre">
+							</div>
+							<div>
+								<input type="text" name="e-mail" value="Email">
+							</div>
+							<div>
+								<textarea>Mensaje</textarea>
+							</div>
+							<div>
+								<input type="submit" name="Enviar" class="boton-enviar">
+							</div>
+						</form>
+					</div>
+					<div class="col-6">
+						<img src="img/shoes_1.jpg" class="w-100">
+					</div>
+				</div>
+			</div>
+		</article>
+	</section>
+	<footer>
+		<div class="text-white">© Escuela de danza. Todos los derechos reservados.</div>
+	</footer>
 </body>
 </html>

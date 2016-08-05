@@ -22,7 +22,40 @@ ul {
 	padding-left: 0px;
 }
 
-a:hover {
+nav a:hover {
 	background-color: gray;
 	border-radius: 5%;
+}
+
+header h2 {
+	font-size: 30px;
+}
+
+#fondo {
+	background-image: url("../img/textura_2.jpg");
+}
+
+input, textarea{
+    border: 2px solid #CCCCCC;
+    color: #555555;
+    padding: 7px;
+    width: 400px;
+    margin: 0.3%;
+}
+
+textarea {
+	height: 100px;
+}
+
+#formulario h2 {
+	font-size: 30px;
+}
+
+.boton-enviar {
+	background-color: #030D1B;
+}
+
+footer div {
+	background-color: #030D1B;
+	padding: 2% 0% 1% 5%;
 }

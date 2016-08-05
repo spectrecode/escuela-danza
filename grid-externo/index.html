@@ -6,20 +6,21 @@
 	<link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Montserrat:400,700'>
 	<link rel="stylesheet" type="text/css" href="css/utilities.css">
 	<link rel="stylesheet" type="text/css" href="css/common.css">
-	<link rel="stylesheet" type="text/css" href="css/fluidable.css">
+	<link rel="stylesheet" type="text/css" href="css/simplegrid.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="blog.html">
 </head>
 <body class="text-blue">
 	<header class="text-center">
-	<div class="container">
-		<div class="col-group">
-			<div class="col-mb-12">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-12">
 				<h2 class="text-center">ESCUELA DE DANZA</h2>
 				<nav>
 					<ul>
-						<li><a href="#" class="a-none-decoration text-blue">Nosotros</a></li>
-						<li><a href="#" class="a-none-decoration text-blue">Clases</a></li>
-						<li><a href="#" class="a-none-decoration text-blue">Blog</a></li>
+						<li><a href="index.html" class="a-none-decoration text-blue">Nosotros</a></li>
+						<li><a href="clases.html" class="a-none-decoration text-blue">Clases</a></li>
+						<li><a href="blog.html" class="a-none-decoration text-blue">Blog</a></li>
 						<li><a href="#" class="a-none-decoration text-blue">Contáctanos</a></li>
 					</ul>
 				</nav>
@@ -30,11 +31,11 @@
 	<section>
 		<article id="banner" class="pt-5 pb-5">
 			<div class="container">
-				<div class="col-group">
-					<div class="col-mb-4">
+				<div class="row">
+					<div class="col-4">
 						<h1>STUDIO</h1>
 						<p class="pt-5 lh pb-5">Juliart Studios is the perfect place to find your feet with over 20 unique styles of dance and 80 techers to choose from</p>
-						<div class="pt-5 pb-5"><a href="#" class="a-none-decoration text-white">Inscribete</a></div>
+						<div class="pt-5 pb-5 boton"><a href="#" class="a-none-decoration text-white">Inscribete</a></div>
 					</div>
 				</div>
 			</div>
@@ -45,20 +46,73 @@
 				<div class="text-center deco">
 					<img src="img/decoration_1.png">
 				</div>
-				<div class="text-center pb-5"><a href="#" class="a-none-decoration text-white">Oferta de Clases</a></div>
+				<div class="text-center pb-5 boton"><a href="#" class="a-none-decoration text-white">Oferta de Clases</a></div>
 			</div>
 		</article>
-		<article">
+		<article class="section">
 			<div class="container-fluid">
-				<div class="col-group m-0 boton-uno">
+				<div class="row caja-banner">
 					<div class="col-6 instructor"></div>
 					<div class="col-6 profesor"></div>
-					<div class="botonmedio text-center">
+					<div class="boton-medio text-center">
 						<a href="#" class="a-none-decoration text-white">Nuestros instructores</a>
 					</div>
 				</div>
 			</div>
 		</article>
+		<article id="fondo">
+			<div class="container">
+				<p class="frase pt-5 pb-5 text-center">"La danza es un poema en el que cada movimiento <br/>es una palabra."</p>
+			</div>
+		</article>
+		<article id="fondo-azul">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-6">
+						<p class="text-white guia">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						</p>
+						<h4 class="text-white">Visitanos</h4>
+						<p class="text-white direccion lh">The Juilliard School
+						   60Lincon Center Plaza
+						   New York NY 10023
+						   (212) 799-5000</p>
+					</div>
+					<div class="col-6">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.503524275223!2d-73.98433445182079!3d40.77294316796425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2585ff9df2f6d%3A0xf876ccebba645bff!2sEscuela+Juilliard!5e0!3m2!1ses!2spe!4v1470363561541" width="400" height="300" frameborder="0" style="border:0" allowfullscreen class="pt-5 pb-5"></iframe>
+					</div>
+				</div>
+			</div>
+		</article>
+		<article id="formulario">
+			<div class="container">
+				<div class="row">
+					<div class="col-6">
+						<h2  class="pt-5 pb-5">Contactanos</h2>
+						<form action="#" method="get" id="contact">
+							<div>
+								<input type="text" name="invitado" value="Nombre">
+							</div>
+							<div>
+								<input type="text" name="e-mail" value="Email">
+							</div>
+							<div>
+								<textarea>Mensaje</textarea>
+							</div>
+							<div>
+								<input type="submit" name="Enviar" class="boton-enviar">
+							</div>
+						</form>
+					</div>
+					<div class="col-6">
+						<img src="img/shoes_1.jpg" class="w-100">
+					</div>
+				</div>
+			</div>
+		</article>
 	</section>
+	<footer>
+		<div class="text-white">© Escuela de danza. Todos los derechos reservados.</div>
+	</footer>
 </body>
 </html>

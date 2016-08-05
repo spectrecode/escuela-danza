@@ -11,9 +11,9 @@
 </head>
 <body>
 	<header class="text-center">
-	<div class="container">
-		<div class="col-group">
-			<div class="col-mb-12">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-12">
 				<h2 class="text-center">ESCUELA DE DANZA</h2>
 				<nav>
 					<ul>
@@ -28,10 +28,10 @@
 	</div>
 	</header>
 	<section>
-		<article class="caja-clase">
+		<article>
 			<h3>OFERTA DE CLASES</h3>
 			<div class="container-fluid">
-				<div class="col-group">
+				<div class="row">
 					<div class="col-4">
 						<img src="img/dance_12.jpg">
 					</div>
@@ -56,5 +56,36 @@
 			</div>
 		</article>
 	</section>
+
+	<article id="formulario">
+			<div class="container">
+				<div class="row">
+					<div class="col-6">
+						<h2  class="pt-5 pb-5">Contactanos</h2>
+						<form action="#" method="get" id="contact">
+							<div>
+								<input type="text" name="invitado" value="Nombre">
+							</div>
+							<div>
+								<input type="text" name="e-mail" value="Email">
+							</div>
+							<div>
+								<textarea>Mensaje</textarea>
+							</div>
+							<div>
+								<input type="submit" name="Enviar" class="boton-enviar">
+							</div>
+						</form>
+					</div>
+					<div class="col-6">
+						<img src="img/shoes_1.jpg" class="w-100">
+					</div>
+				</div>
+			</div>
+		</article>
+	</section>
+	<footer>
+		<div class="text-white">© Escuela de danza. Todos los derechos reservados.</div>
+	</footer>
 </body>
 </html>

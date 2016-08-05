@@ -1,1 +1,62 @@
-/* Inserta tu codigo aqui */
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Escuela de Danza</title>
+	<link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Montserrat:400,700'>
+	<link rel="stylesheet" type="text/css" href="css/utilities.css">
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<link rel="stylesheet" type="text/css" href="css/simplegrid.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="blog.html">
+</head>
+<body class="text-blue">
+	<header class="text-center">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-12">
+				<h2 class="text-center">ESCUELA DE DANZA</h2>
+				<nav>
+					<ul>
+						<li><a href="index.html" class="a-none-decoration text-blue">Nosotros</a></li>
+						<li><a href="clases.html" class="a-none-decoration text-blue">Clases</a></li>
+						<li><a href="blog.html" class="a-none-decoration text-blue">Blog</a></li>
+						<li><a href="#" class="a-none-decoration text-blue">Contáctanos</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</div>
+	</header>
+	<article id="formulario">
+			<div class="container">
+				<div class="row">
+					<div class="col-6">
+						<h2  class="pt-5 pb-5">Contactanos</h2>
+						<form action="#" method="get" id="contact">
+							<div>
+								<input type="text" name="invitado" value="Nombre">
+							</div>
+							<div>
+								<input type="text" name="e-mail" value="Email">
+							</div>
+							<div>
+								<textarea>Mensaje</textarea>
+							</div>
+							<div>
+								<input type="submit" name="Enviar" class="boton-enviar">
+							</div>
+						</form>
+					</div>
+					<div class="col-6">
+						<img src="img/shoes_1.jpg" class="w-100">
+					</div>
+				</div>
+			</div>
+		</article>
+	</section>
+	<footer>
+		<div class="text-white">© Escuela de danza. Todos los derechos reservados.</div>
+	</footer>
+</body>
+</html>
