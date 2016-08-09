@@ -81,17 +81,80 @@ article#fondo p.frase {
 	padding: 0% 50% 10% 15%;
 }
 
-#blog {
-	background-color: #E6E6E6;
+#clases h3, #blog h3 {
+	font-size: 20px;
 }
 
-#blog h3 {
+#clases article, #blog {
+	background-color: #DFE4F6;
+}
+
+#clases .dance {
+	max-width: 93%;
+}
+
+#clases .clase {
+	height: 380px;
+	overflow: hidden;
+	margin-top: 3%;
+}
+
+.ballet {
+	background-image: url("../img/dance_12.jpg");
+	height: 380px;
+	position: relative;
+}
+
+.break {
+	background-image: url("../img/breakdance.jpg");
+	height: 380px;
+	position: relative;
+}
+
+.jazz {
+	background-image: url("../img/lirical-jazz.jpg");
+	height: 380px;
+	position: relative;
+}
+
+.arabe {
+	background-image: url("../img/arabe.jpg");
+	height: 380px;
+	position: relative;
+}
+
+.little {
+	background-image: url("../img/little.jpg");
+	height: 380px;
+	position: relative;
+}
+
+.yoga{
+	background-image: url("../img/yoga.jpg");
+	height: 380px;
+	position: relative;
+}
+
+.caja-descrip {
+	background-color: rgba(0, 0, 0, 0.7);
+	padding: 4%;
+	top: 35%;
+	width: 80%;
+	left: 6%;
+	position: absolute;
+}
+
+#clases h5 {
 	font-size: 20px;
 }
 
 .articulo {
 	padding: 3% 5% 7% 5%;
 	background-color: #C9C9CA;
+}
+
+.profes {
+	height: 236px;
 }
 
 p em {
